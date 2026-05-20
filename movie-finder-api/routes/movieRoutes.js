@@ -4,7 +4,7 @@ const router = express.Router();
 const {
   searchMovies,
   getMovieDetails,
-} = require("../controllers/movieController");
+} = require("./../controllers/movieControllers");
 
 // Search movies
 router.get("/search", searchMovies);
