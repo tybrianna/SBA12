@@ -9,6 +9,6 @@ const PORT = process.env.PORT;
 app.use(express.json());
 
 // Route
-
+app.use("/api", movieRoutes);
 
 // Port
